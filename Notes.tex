@@ -32,21 +32,32 @@
     An integral equation is any equyation in which the unknown function is inside the integral sign.
 \end{defn}
 \begin{example}
-    $\int_{a}^{b} k(x,y)u(y)dy = f(x), x \in (a,b)$
+    \begin{align*}
+        \int_{a}^{b} k(x,y)u(y)dy = f(x), x \in (a,b)
+    \end{align*}
     Here k and f are given and u(x) is the unknown function.
 \end{example}
 \begin{example}
-    $\int_{0}^{\infty} e ^{-xt}u(t)dt = f(x), x \in (0,\infty)$
+    \begin{align*}
+        \int_{0}^{\infty} e ^{-xt}u(t)dt = f(x), x \in (0,\infty)
+    \end{align*}
     f(x) is the laplace transform of u.
 \end{example}
 \begin{rem}
     There is an inversion formula giving u from f but it involves an integhrral of f(x) over complex values of x. In practice we may only know f(x) for real values of x.
 \end{rem}
 \begin{example}
-    $\int_{-1}^{1} u(t) dt = 1$ One solution $u(t) = \frac{1}{2}, t \in (-1,1)$
-    Clearly there are lots of solutions, e.g. 
-    $u(t) = \frac{1}{2} +$ any odd function of t 
+    \begin{align*}
+        \int_{-1}^{1} u(t) dt = 1 \intertext{One solution} u(t) = \frac{1}{2}, t \in (-1,1)
+    \end{align*}
+    Clearly there are lots of solutions, e.g.
+    \begin{align*}
+        u(t) = \frac{1}{2} + \intertext{any odd funtion of t.}
+    \end{align*}
     or
-    $u(t) = \frac{1}{2} + \sum_{n=1}^{\infty} \{ a_{n} cos(nt\pi)+b_{n} sin(nt\pi)\}$ For any reasonable $a_{n}$ and $b_{n}$.
+    \begin{align*}
+        u(t) = \frac{1}{2} + \sum_{n=1}^{\infty} \{ a_{n} cos(nt\pi)+b_{n} sin(nt\pi)\}
+    \end{align*}
+    For any reasonable $a_{n}$ and $b_{n}$.
 \end{example}
 \end{document}
