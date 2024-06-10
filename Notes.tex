@@ -17,6 +17,7 @@
 \newtheorem{lem}{Lemma}
 \newtheorem{cor}{Corollary}
 \newtheorem{example}{Example}
+\newtheorem{exe}{Exercise}
 
 \title{Integral Equations Notes: [457]}
 \author{[Drew Remmenga]}
@@ -60,4 +61,41 @@
     \end{align*}
     For any reasonable $a_{n}$ and $b_{n}$.
 \end{example}
+\begin{example}
+    \begin{align*}
+        \int_{-1}^{1} u(t)dt = f(x), x \in (-1,1)
+    \end{align*}
+    Now there are no solutions unless f(x) is constant.
+\end{example}
+\begin{example}
+    \begin{align}
+        \alpha u(x) + \beta \int_{-1}^{1} u(t) dt = f(x), x \in (-1,1)
+    \end{align}
+    Where $\alpha$ and $\beta$ are given constants with $\alpha \neq 0$ or example 4 put $\int_{-1}^{1} u(t) dt = c$ a known constant. Then (1) gives
+    \begin{align}
+        u(x) = \frac{1}{\alpha} \{f(x) - \beta C\}
+    \end{align}
+    So we will have solved (1) and know C. Integrate (2) gives
+    \begin{align*}
+        C = \int_{-1}^{1} u(x) dx = \frac{1}{\alpha} \int_{-1}^{1} f(x)dx - \frac{\beta C}{\alpha}\int_{-1}^{1} dx
+    \end{align*}
+    \begin{align}
+        (1+\frac{2\beta}{\alpha})C = \frac{1}{\alpha}\int_{-1}^{1} f(x)dx
+    \end{align}
+    \begin{align*}
+        C = \frac{1}{\alpha + 2\beta}\int_{-1}^{1} f(x) dx
+    \end{align*}
+    then (2) gives unique solution of (1) real provided $\alpha + 2 \beta \neq 0$. What happens if $\alpha + 2\beta =0 $? As before we ghet to (3) which reduces to 
+    \begin{align}
+        0\int_{-1}^{1} f(x) dx
+    \end{align}
+    If f(x) satisfies (4) eg f cpould be odd then (2) solves (1) for any choice of the constant C: we have existence but not uniqueness. If f(x) does not satisfy (4) eg f(x) could by $x^{2}$ then (1) does not have any solutions $\alpha + 2\beta=0$. All this is reminicent of linear algebra (solving $Ax=\underset{\tilde{}}{b}$).
+\end{example}
+\begin{exe}
+    Put $\frac{\beta}{\alpha}=-\lambda$ and $f=0$ giving
+    \begin{align*}
+        u(x) = \int_{-1}^{1} u(t) dt = 0
+    \end{align*}
+    A homogenous integral equation. Are there values of $\lambda$ for which this integral equation has non trivial solution $u\neq 0$?
+\end{exe}
 \end{document}
