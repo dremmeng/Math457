@@ -1,6 +1,6 @@
 \documentclass[10pt, oneside]{article} 
 \usepackage{amsmath, amsthm, amssymb, calrsfs, wasysym, verbatim, bbm, color, graphics, geometry}
-
+\usepackage{mathrsfs}
 \geometry{tmargin=.75in, bmargin=.75in, lmargin=.75in, rmargin = .75in}  
 
 \newcommand{\R}{\mathbb{R}}
@@ -8,6 +8,7 @@
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\N}{\mathbb{N}}
 \newcommand{\Q}{\mathbb{Q}}
+
 \newcommand{\Cdot}{\boldsymbol{\cdot}}
 
 \newtheorem{thm}{Theorem}
@@ -98,4 +99,35 @@
     \end{align*}
     A homogenous integral equation. Are there values of $\lambda$ for which this integral equation has non trivial solution $u\neq 0$?
 \end{exe}
+\begin{example}
+    \begin{align}
+        \int_{0}^{t} u (\tau) d\tau = f(t), t > 0
+    \end{align}
+    Differentiate with respect to x(t):
+    \begin{align*}
+        u(x) = f'(x)
+    \end{align*}
+    Two anxieties.
+    1. (5) suggests that f(0)=0 in $\lim_{x\to 0}$ (5)  what happens if $f(0) \neq 0$ eg $f(x) = 1, \forall x$
+    2. What happens if f is not differentiable? Try using laplace transform. Let $U(s) = \mathscr{L}\{u\}$
+    \begin{align*}
+        \int_{0}^{\infty} u(t) e^{-st} dt 
+    \end{align*}
+    We have:
+    \begin{align*}
+        \mathscr{L}\{\int_{0}^{t} u(\tau) d\tau \} &= \int_{t=0}^{\infty} e^{-st}\int_{0}^{\tau = t} u(\tau) d\tau \\
+        &= \int_{0}^{\infty}u(\tau) \int_{\tau}^{\infty} e^{-st} dt d\tau\\
+        &= \frac{e^{st}}{s}\|_{\tau}^{infty} = \frac{e^{-s\tau}}{s} \\
+        &= \int_{0}^{\infty} u(\tau) \frac{e^{-s\tau}}{s} d\tau\\
+        &= \frac{1}{s} \int_{0}^{\infty} u(\tau) e^{-s\tau}d\tau\\
+        &= \frac{1}{s} \mathscr{L}\{u\}\\
+        \mathscr{L} \{ (5) \} &=\frac{1}{s} U(s) = F(s)\\
+        & \implies \\
+        u(s) & = sF(s)\\
+        \mathscr{L} \{ f'\} & = sF(s) -f(0)\\
+        \mathscr{L} \{ u \} & = U = sF(s) +sf(x)- f(0)\\
+        &= \mathscr{L} \{f\} + f(0) 
+    \end{align*}
+    Question is is there a g(t) such that $\mathscr{L} \{ g \} =1$
+\end{example}
 \end{document}

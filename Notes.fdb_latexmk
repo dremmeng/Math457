@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1718049640.33963 "c:/Users/Drewr/Documents/School/Math457/Notes.tex" "Notes.pdf" "Notes" 1718049640.99558 0
-  "C:/Users/Drewr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1717962501 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
+["pdflatex"] 1718562170.36741 "c:/Users/Drewr/Documents/School/Math457/Notes.tex" "Notes.pdf" "Notes" 1718562171.04044 0
+  "C:/Users/Drewr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1718561359 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Drewr/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1717962498 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/Drewr/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1717962829 684 3a51bd4fd9600428d5264cf25f04bb9a ""
   "C:/Users/Drewr/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs7.tfm" 1717962499 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
@@ -42,6 +42,7 @@
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1247596666 32716 08e384dc442464e7285e891af9f45947 ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1247596667 37944 359e864bd06cde3b1cf57bb20757fb06 ""
+  "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb" 893413860 16077 4737ac34f0fb5608550f3780a0202c22 ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580393758 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty" 1644000708 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty" 1644000708 1057 525c2192b5febbd8c1f662c9468335bb ""
@@ -72,13 +73,15 @@
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1665067579 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/latex/graphics/mathcolor.ltx" 1665067579 3171 1cf0d440b5464e2f034398ce4ef36f75 ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty" 1665067579 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
+  "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/latex/jknappen/mathrsfs.sty" 930764892 300 12fa6f636b617656f2810ee82cb05015 ""
+  "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/latex/jknappen/ursfs.fd" 930764886 548 cc4e3557704bfed27c7002773fad6c90 ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1664388628 30426 b4bd1ea7df6c51902df8edf551809fb7 ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1654690828 7392 6cb60c76983625ab7344d128dbcdd881 ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/latex/wasysym/uwasy.fd" 1579696602 2296 c50bf1089c7a46a0d4e9a119e980be4e ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/latex/wasysym/wasysym.sty" 1579696602 11252 7fbfbe7bbcbe1f73acbe32ae2f10c666 ""
-  "Notes.aux" 1718049640 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "Notes.tex" 1718049639 3799 c6d7177b549aca31b0b796e3d016743f ""
-  "c:/Users/Drewr/Documents/School/Math457/Notes.tex" 1718049639 3799 c6d7177b549aca31b0b796e3d016743f ""
+  "Notes.aux" 1718562170 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
+  "Notes.tex" 1718562169 5181 d8d7dc90b6bb2db67752a73ce68d0799 ""
+  "c:/Users/Drewr/Documents/School/Math457/Notes.tex" 1718562169 5181 d8d7dc90b6bb2db67752a73ce68d0799 ""
   (generated)
   "Notes.aux"
   "Notes.log"
