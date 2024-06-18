@@ -128,6 +128,56 @@
         \mathscr{L} \{ u \} & = U = sF(s) +sf(x)- f(0)\\
         &= \mathscr{L} \{f\} + f(0) 
     \end{align*}
-    Question is is there a g(t) such that $\mathscr{L} \{ g \} =1$
+    Question is is there a g(t) such that $\mathscr{L} \{ g \} =1$ Answer: It depends on what you mean by a function. 
+    \begin{align*}
+        LHS = \mathscr{L} \{g\} = \int_{0}^{\infty} g(t) e^{st} dt = G(s)
+    \end{align*}
+    Fact: If g is an ordinary integrable function then we must not have $G(s) \to 0$ as $s \to \infty$ As we want G(s) = 1. g can't be ordinary. Fact: $\mathscr{L} \{\delta\}=1$ Wwhere $\delta$ = dirac delta function. SO solution of (5).
+    \begin{align*}
+        u(x) =f'(x) + f(0)dx
+    \end{align*} 
+    In particular if $f(0) \neq 0$ then (5) has no conbtinuous solutions for $x \geq 0$.
+    Second Anxiety: Consider (5) where f is not a continous function. 
 \end{example}
+\begin{example}
+    \begin{align*}
+    f(x) &= \{\begin{cases} 0, & 0 \leq x < c \\
+        x-c, & x \geq c
+    \end{cases}
+    & = (x-c)H(x-c)
+    \end{align*}
+    H(x) is the divided unit function. Then 
+    \begin{align*}
+        \mathscr{L} \{ (5) \} = \frac{1}{s} u(s) = \mathscr{L}\{ f\} & = \mathscr{L}\{ x-c)H(x-c)\} \\
+        & = \int_{0}^{\infty} (x-c)H(x-c) e^{-sx}dx\\
+        & = \int_{0}^{\infty} (x-c)e^{sx} dx, (x-c) = y\\
+        & = \int_{0} ^{\infty} ye^{ -s(y+c)}dy \\
+        & = e^{-sc}\int_{0} ^{\infty} yce^{-sy}dy\\
+        & = e^{- sc}\mathscr{L} \{ t\} = \frac{e^{-sc}}{s^{2}} \\
+        & \implies U(s) =se^{-sc} \\
+        u(x) &= H(x-c)  
+    \end{align*}
+
+\end{example}
+\begin{example}
+    \begin{align*}
+        u(x) = \frac{\alpha}{\pi} \int_{-1}^{1} \frac{u(t)dt}{(x-2)^{2}+\alpha^{2}} =1, x\in (-1,1)
+    \end{align*}
+    The integral contains a parameter $\alpha$. It turns up in at least two distinct physical applications. One in electro statics. whgere it is called Love's equation and in quantum phases where it is called Lieb's equation. It looks simple byt no explicit solution is known. Soi what is known is that u(x) exists, its continuous, it's unique, and it's even. Numerical solutions are easy to compute unless $\alpha$ is very small.  
+\end{example}
+\section{Abel's Equation}
+A bead starts froim rest at P and slides down a smooth wire riching 0 at time $t_{0}$ Find $t_{p}$. Motion is under gravity in a vertical plane put point P at (x,y) and Q at $(\xi,\delta)$. Let s denote the length from 0 to Q. Energy at P = Energy at Q. m = mass of the bead. 
+\begin{align*}
+    mgy &= mg\delta+\frac{1}{2} m (\frac{ds}{dt})^{2}\\
+    \frac{ds}{dt} &= -\sqrt{2gz(y-\delta)}
+\end{align*}
+integrating 
+\begin{align*}
+    t_p = \int_{0}^{t_p}dt= \int_{\delta=y}^{\delta=0} \frac{ds}{\sqrt{2g(y-\delta)}} 
+\end{align*}
+Next specify the shape (equation) of the wire. Its convienient to suppost that $s=S(\delta)$ for some function S. Thus $ds = S(\gamma)d\gamma$
+\begin{align*}
+    t_p = \int_{y}^{0} \frac{s'(\gamma)d\gamma}{\sqrt{2g(y-\gamma)}} 
+\end{align*}
+This gives $t_p$ if we know the shape of the wire. Abel asked given $t_p$ can we find S? 
 \end{document}
