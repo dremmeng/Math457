@@ -180,4 +180,32 @@ Next specify the shape (equation) of the wire. Its convienient to suppost that $
     t_p = \int_{y}^{0} \frac{s'(\gamma)d\gamma}{\sqrt{2g(y-\gamma)}} 
 \end{align*}
 This gives $t_p$ if we know the shape of the wire. Abel asked given $t_p$ can we find S? 
+Put $u(\gamma) = S'(\gamma)$ and $f(y) = \sqrt{2g}t_{p}$ giving:
+\begin{align}
+    \int_{0}^{y}\frac{u(\gamma)d\gamma}{\sqrt{y-\gamma}} = f(y), y>0
+\end{align}
+This is Abel's integral equation. LHS of (6) is a laplace convolution. Recall:
+\begin{align*}
+    (f*g)(t) &= \int_{0}^{t}f(\gamma)g(t-\gamma)d\gamma \\
+    \mathscr{L}\{f*g\} & = \mathscr{L}\{f\} \mathscr{L}\{g\}
+\end{align*}
+\begin{proof}
+    \begin{align*}
+        \mathscr{L}\{f*g\} &= \int_{0}^{\infty}e^{-st} (f*g)(t)dt \\
+        & = \int_{0}^{\infty}e^{-st}\int_{0}^{t}f(\gamma)g(t-\gamma)d\gamma dt\\
+        & = \int_{0}^{\infty}f(\gamma)\int_{\delta}^{\infty}e^{-st} g(t-\gamma)dtd\gamma\\
+        & = \int_{0}^{\infty}f(\gamma)\int_{x=0}^{\infty}e^{-s(\gamma + x)}g(x)dxd\gamma\\
+        & = \mathscr{L}\{f\} \mathscr{L}\{g\} 
+    \end{align*}
+\end{proof}
+\begin{align}
+    \mathscr{L}\{(6)\}  : U(s) \mathscr{L}\{\frac{1}{\sqrt{t}}\} = F(s)
+\end{align}
+Now:
+\begin{align*}
+    \mathscr{L} \{t^{\nu}\} & = \int_{0}^{\infty}t^{\nu}e^{-st}dt \\
+    & = \int_{0}^{\infty}(\frac{x}{s})^{\nu}e^{-x} \frac{dx}{s} \\
+    \text{Put } st & = x \\
+    & = \frac{1}{st^{\nu+1}} \int_{0}^{\infty}x^{\nu}e^{-x} dx, \nu > -1\\
+\end{align*}
 \end{document}
