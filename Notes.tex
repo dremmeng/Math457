@@ -208,4 +208,33 @@ Now:
     \text{Put } st & = x \\
     & = \frac{1}{st^{\nu+1}} \int_{0}^{\infty}x^{\nu}e^{-x} dx, \nu > -1\\
 \end{align*}
+The remaining integral is denoted by $\Gamma'(\nu+1)$ where $\Gamma$ is the gamma function. We want $\int_{0}^{\infty}x^{-1/2}e^{-x} dx = \Gamma(1/2) = 2\int_{0}^{\infty}e^{-w^{2}}dw = \sqrt{\pi}$. SOo $\mathscr{L}\{t^{-1/2} \} = \sqrt{\frac{\pi}{6}}$.
+Returning to (7), we get 
+\begin{align}
+    U(s) =\sqrt{\frac{s}{\pi}}F(s)
+\end{align}
+This looks like $\mathscr{L}\{ \text{Convolution}\} $ but its not because $\sqrt{s}$ is not the LT of an ordinary function. We know $\mathscr{L} \{\text{Ordinary Function}\} \to 0$ as $s \to \infty$ So we use a trick:
+\begin{align*}
+    U(s)&= \frac{1}{\sqrt{\pi s}}sF(s) \\
+    &=\frac{1}{\pi} \sqrt{\frac{\pi}{s}}\{sF(s) -f(0) + f(0)\}\\
+    &=\frac{1}{\pi} \mathscr{L}\{t^{-1/2}\} \{\mathscr{L} \{f'\} + f(0)\} \\
+    u(t) &= \frac{1}{\pi} \{t^{-1/2} * f'+\frac{f(0)}{\sqrt{t}}\} \\
+\end{align*}
+\begin{align}
+    &= \frac{1}{\pi}\{ \int_{0}^{t}(t-\delta)^{-1/2} f'(\delta)d\delta +f(0)\frac{1}{\sqrt{t}}\} 
+\end{align}
+ie 
+\begin{align*}
+    S'(y) & = \frac{1}{\pi}\{ \frac{f()}{\sqrt{y}} + \int_{0}^{y}\frac{f'(\delta)}{\sqrt{y-\delta}}d\delta \\
+\end{align*}
+Note for Arbel's problem f(0) =0.
+First Alternative method.  We write (8) as $\frac{1}{s} U(s) =\frac{1}{\pi s} F(s)$. Invert:
+\begin{align}
+    \int_{0}^{t}u(x) dx & = \frac{1}{\pi} t^{-1/2} * f \
+\end{align}
+Differentiate (legal?)
+\begin{align*}
+    u(t) &= \frac{1}{\pi} \frac{d}{dt} \int_{0}^{t}(t-\delta)^{-1/2} f(\delta) d\delta \\
+\end{align*}
+This is the same as (9).
 \end{document}
