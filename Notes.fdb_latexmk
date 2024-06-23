@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1719067215.0988 "c:/Users/Drewr/Documents/School/Math457/Notes.tex" "Notes.pdf" "Notes" 1719067215.79929 0
+["pdflatex"] 1719154166.57406 "c:/Users/Drewr/Documents/School/Math457/Notes.tex" "Notes.pdf" "Notes" 1719154167.29004 0
   "C:/Users/Drewr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1718561359 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Drewr/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1717962498 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/Drewr/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1717962829 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -27,6 +27,7 @@
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
+  "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti7.tfm" 1136768653 1492 86331993fe614793f5e7e755835c31c5 ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/tfm/public/wasy/wasy10.tfm" 1578660304 908 375dcd194b89b9cc9481ab62f2da0667 ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/tfm/public/wasy/wasy5.tfm" 1578660339 908 9b2ed8097703005e83b790aecb955a2f ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/tfm/public/wasy/wasy6.tfm" 1578660333 912 8da0595e5e615d33e0b2860959a58bf8 ""
@@ -83,9 +84,9 @@
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1654690828 7392 6cb60c76983625ab7344d128dbcdd881 ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/latex/wasysym/uwasy.fd" 1579696602 2296 c50bf1089c7a46a0d4e9a119e980be4e ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/latex/wasysym/wasysym.sty" 1579696602 11252 7fbfbe7bbcbe1f73acbe32ae2f10c666 ""
-  "Notes.aux" 1719067215 135 337b3f1aaca546b2d329b826a86c656f "pdflatex"
-  "Notes.tex" 1719067214 10783 d95229ef22da6f82390443133220afbd ""
-  "c:/Users/Drewr/Documents/School/Math457/Notes.tex" 1719067214 10783 d95229ef22da6f82390443133220afbd ""
+  "Notes.aux" 1719154167 135 51829f7903cc8c9b9d99da3b04b15165 "pdflatex"
+  "Notes.tex" 1719154166 11866 af55e7baa76b73d7281d430df80ff852 ""
+  "c:/Users/Drewr/Documents/School/Math457/Notes.tex" 1719154166 11866 af55e7baa76b73d7281d430df80ff852 ""
   (generated)
   "Notes.aux"
   "Notes.log"

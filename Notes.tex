@@ -46,7 +46,7 @@
     f(x) is the laplace transform of u.
 \end{example}
 \begin{rem}
-    There is an inversion formula giving u from f but it involves an integhrral of f(x) over complex values of x. In practice we may only know f(x) for real values of x.
+    There is an inversion formula giving u from f but it involves an integral of f(x) over complex values of x. In practice we may only know f(x) for real values of x.
 \end{rem}
 \begin{example}
     \begin{align*}
@@ -54,7 +54,7 @@
     \end{align*}
     Clearly there are lots of solutions, e.g.
     \begin{align*}
-        u(t) = \frac{1}{2} + \intertext{any odd funtion of t.}
+        u(t) = \frac{1}{2} + \text{any odd funtion of t.}
     \end{align*}
     or
     \begin{align*}
@@ -86,9 +86,9 @@
     \begin{align*}
         C = \frac{1}{\alpha + 2\beta}\int_{-1}^{1} f(x) dx
     \end{align*}
-    then (2) gives unique solution of (1) real provided $\alpha + 2 \beta \neq 0$. What happens if $\alpha + 2\beta =0 $? As before we ghet to (3) which reduces to 
+    then (2) gives unique solution of (1) real provided $\alpha + 2 \beta \neq 0$. What happens if $\alpha + 2\beta =0 $? As before we get to (3) which reduces to 
     \begin{align}
-        0\int_{-1}^{1} f(x) dx
+        0 = \int_{-1}^{1} f(x) dx
     \end{align}
     If f(x) satisfies (4) eg f cpould be odd then (2) solves (1) for any choice of the constant C: we have existence but not uniqueness. If f(x) does not satisfy (4) eg f(x) could by $x^{2}$ then (1) does not have any solutions $\alpha + 2\beta=0$. All this is reminicent of linear algebra (solving $Ax=\underset{\tilde{}}{b}$).
 \end{example}
@@ -141,9 +141,9 @@
 \end{example}
 \begin{example}
     \begin{align*}
-    f(x) &= \{\begin{cases} 0, & 0 \leq x < c \\
-        x-c, & x \geq c
-    \end{cases}
+    f(x) &= \begin{cases} 0, & 0 \leq x < c \\
+        x-c, & x \geq c \\
+    \end{cases} \\
     & = (x-c)H(x-c)
     \end{align*}
     H(x) is the divided unit function. Then 
@@ -237,4 +237,26 @@ Differentiate (legal?)
     u(t) &= \frac{1}{\pi} \frac{d}{dt} \int_{0}^{t}(t-\delta)^{-1/2} f(\delta) d\delta \\
 \end{align*}
 This is the same as (9).
+Second Alternative Method: Special and Sneaky \\
+Multiply (6) by $\frac{1}{\sqrt{x-y}}$ and integrate from 0 to x with resepct to y.
+\begin{align*}
+    \int_{0}^{x}f(y) \frac{1}{\sqrt{x-y}} & = \int_{0}^{x}\frac{1}{\sqrt{x-y}}\int_{0}^{y}\frac{u(\delta)d\delta}{\sqrt{y-\delta}}dy \\
+    &= \int_{0}^{x}u(\delta) \int_{\delta}^{x}\frac{dy}{\sqrt{x-y}\sqrt{y-\delta}}d\delta\\
+    y&= \delta+(x-\delta)\sin^{2}(\theta) \\
+\end{align*}
+This gets to (10).
+3. Ordinary Differential Equations (odes)
+Problems inbvolving odes can often be rewritten as integral equations. This can be useful for tracking theoretical questions such as existence.
+\begin{example}
+    1st order inital value problem (ivp).
+    \begin{align*}
+        \frac{dy}{dt} = f(t,y(t)) \text{ with } y(0) = 0 
+    \end{align*}
+    Integrate:
+    \begin{align*}
+        \int_{0}^{x}\frac{dy}{dt} & = \int_{0}^{x}f(t,y(t))dt\\
+        y(x) - y_{0} &= \int_{0}^{x}f(t,y(t))dt \\
+    \end{align*}
+    In general this is a nonlinear integral equation because of the dependence of f on y. 
+\end{example}
 \end{document}
