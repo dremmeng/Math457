@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1719154166.57406 "c:/Users/Drewr/Documents/School/Math457/Notes.tex" "Notes.pdf" "Notes" 1719154167.29004 0
+["pdflatex"] 1719338528.11502 "c:/Users/Drewr/Documents/School/Math457/Notes.tex" "Notes.pdf" "Notes" 1719338528.89936 0
   "C:/Users/Drewr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1718561359 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Drewr/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1717962498 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/Drewr/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1717962829 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -84,9 +84,9 @@
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1654690828 7392 6cb60c76983625ab7344d128dbcdd881 ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/latex/wasysym/uwasy.fd" 1579696602 2296 c50bf1089c7a46a0d4e9a119e980be4e ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/latex/wasysym/wasysym.sty" 1579696602 11252 7fbfbe7bbcbe1f73acbe32ae2f10c666 ""
-  "Notes.aux" 1719154167 135 51829f7903cc8c9b9d99da3b04b15165 "pdflatex"
-  "Notes.tex" 1719154166 11866 af55e7baa76b73d7281d430df80ff852 ""
-  "c:/Users/Drewr/Documents/School/Math457/Notes.tex" 1719154166 11866 af55e7baa76b73d7281d430df80ff852 ""
+  "Notes.aux" 1719338528 227 034e1eba7c0418a2a7501fbb19453354 "pdflatex"
+  "Notes.tex" 1719338527 13251 da3e16cd80d25a91b909cd858953cc89 ""
+  "c:/Users/Drewr/Documents/School/Math457/Notes.tex" 1719338527 13251 da3e16cd80d25a91b909cd858953cc89 ""
   (generated)
   "Notes.aux"
   "Notes.log"

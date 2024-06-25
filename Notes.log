@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.17)  23 JUN 2024 08:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.17)  25 JUN 2024 12:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -274,7 +274,7 @@ Overfull \hbox (49.01721pt too wide) in paragraph at lines 215--217
 \OT1/cmr/m/n/10 This looks like $\U/rsfs/m/n/10 L\OMS/cmsy/m/n/10 f[]g$ \OT1/cmr/m/n/10 but its not be-cause $[]$ is not the LT of an or-di-nary func-tion. We know $\U/rsfs/m/n/10 L\OMS/cmsy/m/n/10 f[]g !
  []
 
-[5] [6] (Notes.aux) ) 
+[5] [6] [7] (Notes.aux) ) 
 Here is how much of TeX's memory you used:
  3668 strings out of 475385
  56207 string characters out of 2776906
@@ -284,9 +284,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,14n,62p,484b,270s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on Notes.pdf (6 pages, 205334 bytes).
+Output written on Notes.pdf (7 pages, 209266 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
+ 101 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

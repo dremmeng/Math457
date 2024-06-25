@@ -245,7 +245,8 @@ Multiply (6) by $\frac{1}{\sqrt{x-y}}$ and integrate from 0 to x with resepct to
     y&= \delta+(x-\delta)\sin^{2}(\theta) \\
 \end{align*}
 This gets to (10).
-3. Ordinary Differential Equations (odes)
+\section{ODEs}
+Ordinary Differential Equations (odes)
 Problems inbvolving odes can often be rewritten as integral equations. This can be useful for tracking theoretical questions such as existence.
 \begin{example}
     1st order inital value problem (ivp).
@@ -258,5 +259,38 @@ Problems inbvolving odes can often be rewritten as integral equations. This can 
         y(x) - y_{0} &= \int_{0}^{x}f(t,y(t))dt \\
     \end{align*}
     In general this is a nonlinear integral equation because of the dependence of f on y. 
+\end{example}'
+\begin{example}
+2nd order IVP
+\begin{align*}
+    y''(t) = f(t,y(t)), y(0) = y_{0} \text{ and } y'(0) = y_{1} 
+\end{align*}
+Integrate:
+\begin{align*}
+    y'(x) - y_{1} = \int_{0}^{x}f(t,y(t))dt
+\end{align*}
+Integrate:
+\begin{align*}
+    \int_{0}^{s}(y'(x) - y_{1})ds &= \int_{0}^{s}\int_{0}^{x}f(t,y(t))dt dx \\
+    & \implies \\
+    y(s) - y_{0} - y_{1} s & = \int_{0}^{s}f(t,y(t))\int_{t}^{s}  dx dt\\
+    & = \int_{0}^{s}(s-t)f(t,y(t))dt, s> 0\text{    } (1) 
+\end{align*}
+\begin{example}
+    2nd order boundary value problem (BVP)
+    \begin{align*}
+        y''(t) =f(t,y(t)), 0<t<L \text{ with } y(0) = y_{0}, y(L) = y_{L}
+    \end{align*}
+    We can still use (1) except we don't know $y_{1} = y'(0)$. Put s=L in (1) we receive:
+    \begin{align*}
+        y_{L} - y_{0} - y_{1} L & = \int_{0}^{L}(L-t)f(t,y(t))dt \\
+    \end{align*}
+    Write this as $y_{1} = ...$ and instert back into (1) gives:
+    \begin{align*}
+        y(s) & = y_{0} + \frac{s}{L} \{ y_{L} - y_{0} - \int_{0}^{L}(L-t) f(t,y(t))dt + \int_{0}^{s}(s-t) f(t,y(t))dt\} \\
+        y(s) & = y_{0}(s-\frac{s}{L})+ y_{L}\frac{s}{L}  - \frac{s}{L} \int_{s}^{L} (L-t)f(t,y(t))dt - \int_{0}^{S}\{\frac{s}{L}(L-t) - (s-t)\} f(t,y(t))dt \\
+        & = y_{0} (1-\frac{s}{L}) + y_{L} \frac{s}{L} - \int_{0}^{L}G(s,t)f(t,y(t))dt \\
+    \end{align*}
+\end{example}
 \end{example}
 \end{document}
