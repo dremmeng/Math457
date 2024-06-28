@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1719338528.11502 "c:/Users/Drewr/Documents/School/Math457/Notes.tex" "Notes.pdf" "Notes" 1719338528.89936 0
+["pdflatex"] 1719598464.05963 "c:/Users/Drewr/Documents/School/Math457/Notes.tex" "Notes.pdf" "Notes" 1719598464.87454 2
   "C:/Users/Drewr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1718561359 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Drewr/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1717962498 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/Drewr/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1717962829 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -47,6 +47,7 @@
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1247596666 32716 08e384dc442464e7285e891af9f45947 ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1247596667 37944 359e864bd06cde3b1cf57bb20757fb06 ""
+  "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb" 893413860 16077 4737ac34f0fb5608550f3780a0202c22 ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580393758 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/generic/iftex/iftex.sty" 1644000708 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
@@ -84,9 +85,9 @@
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1654690828 7392 6cb60c76983625ab7344d128dbcdd881 ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/latex/wasysym/uwasy.fd" 1579696602 2296 c50bf1089c7a46a0d4e9a119e980be4e ""
   "C:/Users/Drewr/AppData/Local/Programs/MiKTeX/tex/latex/wasysym/wasysym.sty" 1579696602 11252 7fbfbe7bbcbe1f73acbe32ae2f10c666 ""
-  "Notes.aux" 1719338528 227 034e1eba7c0418a2a7501fbb19453354 "pdflatex"
-  "Notes.tex" 1719338527 13251 da3e16cd80d25a91b909cd858953cc89 ""
-  "c:/Users/Drewr/Documents/School/Math457/Notes.tex" 1719338527 13251 da3e16cd80d25a91b909cd858953cc89 ""
+  "Notes.aux" 1719598464 329 9fd2178ac5fc497dbfe5d7a8e8e3525f "pdflatex"
+  "Notes.tex" 1719598462 14375 103a12e648a60699df26c96f1c256984 ""
+  "c:/Users/Drewr/Documents/School/Math457/Notes.tex" 1719598462 14375 103a12e648a60699df26c96f1c256984 ""
   (generated)
   "Notes.aux"
   "Notes.log"
