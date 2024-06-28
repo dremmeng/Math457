@@ -298,7 +298,7 @@ Where
         \frac{t}{L}(L-s), t < s \end{cases}
 \end{align*}
 G is known as a Green's Function.
-For linear eigenvalue problems (a Sturm-Liouville Problem) e.g. f(t,y(t)) but if its linear $=\lambday(t), y_{0} =0, y_{L} = 0$ We get the integral equation:
+For linear eigenvalue problems (a Sturm-Liouville Problem) e.g. f(t,y(t)) but if its linear $\lambda y(t), y_{0} =0, y_{L} = 0$ We get the integral equation:
 \begin{align*}
     y(s) = -\lambda \int_{0}^{L}G(s,t)y(t)dt, 0 < s < L (2)
 \end{align*}
@@ -306,5 +306,7 @@ This eignevalue problem $[y''=\lambda y, y(0)=0, y(L) =0]$ is easy to solve:
 $\lambda = (\frac{n \pi}{L})^{2}, y(t) = \sin(\frac{n \pi t}{L}), n \in \N$
 \end{example}
 \section{Classification}
-$\int_{a}^{b}K(x,y)u(y)dy = f(x) , a \leq x \leq b$ This is called a Fredholm Integral Equation of the first kind. (FIE1). K is called the kernal, a & b are constants with b > a. Next f(x) is given for $a \leq x \leq b$. Often we may have f(x) for a<x<b, e.g. f(a) may not exist or $a = -\infty$ or $b = \infty$. K(x,y) is a given function of two variables defined in a square in the x,y plane. $\Omega = \{(x,y):a\leq x \leq b, a \leq y \leq b$. If f(x) is not defined $\all x \in [a,b]$ then the same applies to K. 
+$\int_{a}^{b}K(x,y)u(y)dy = f(x) , a \leq x \leq b$ This is called a Fredholm Integral Equation of the first kind. (FIE1). 
+K is called the kernal, a and b are constants with b > a. Next f(x) is given for $a \leq x \leq b$. Often we may have f(x) for a<x<b, e.g. f(a) may not exist or $a = -\infty$ or $b = \infty$. K(x,y) is a given function of two variables defined in a square in the x,y plane. 
+$\Omega = \{(x,y):a\leq x \leq b, a \leq y \leq b$. If f(x) is not defined $\forall  x \in [a,b]$ then the same applies to K. 
 \end{document}

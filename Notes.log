@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.17)  28 JUN 2024 12:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.17)  28 JUN 2024 12:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -274,48 +274,17 @@ Overfull \hbox (49.01721pt too wide) in paragraph at lines 215--217
 \OT1/cmr/m/n/10 This looks like $\U/rsfs/m/n/10 L\OMS/cmsy/m/n/10 f[]g$ \OT1/cmr/m/n/10 but its not be-cause $[]$ is not the LT of an or-di-nary func-tion. We know $\U/rsfs/m/n/10 L\OMS/cmsy/m/n/10 f[]g !
  []
 
-[5] [6]
-c:/Users/Drewr/Documents/School/Math457/Notes.tex:301: Undefined control sequence.
-l.301 ...g. f(t,y(t)) but if its linear $=\lambday
-                                                  (t), y_{0} =0, y_{L} = 0$ ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-c:/Users/Drewr/Documents/School/Math457/Notes.tex:309: Misplaced alignment tab character &.
-l.309 ...kind. (FIE1). K is called the kernal, a &
-                                                   b are constants with b > ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/Drewr/Documents/School/Math457/Notes.tex:309: Undefined control sequence.
-<recently read> \all 
-                     
-l.309 ...q y \leq b$. If f(x) is not defined $\all
-                                                   x \in [a,b]$ then the sam...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[7] (Notes.aux) ) 
+[5] [6] [7] (Notes.aux) ) 
 Here is how much of TeX's memory you used:
- 3669 strings out of 475385
- 56210 string characters out of 2776906
+ 3668 strings out of 475385
+ 56207 string characters out of 2776906
  411808 words of memory out of 3000000
- 24988 multiletter control sequences out of 15000+600000
+ 24987 multiletter control sequences out of 15000+600000
  480329 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,14n,62p,587b,270s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 55i,14n,62p,484b,270s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Drewr/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on Notes.pdf (7 pages, 217191 bytes).
+Output written on Notes.pdf (7 pages, 217178 bytes).
 PDF statistics:
  106 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
