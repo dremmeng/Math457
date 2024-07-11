@@ -308,5 +308,26 @@ $\lambda = (\frac{n \pi}{L})^{2}, y(t) = \sin(\frac{n \pi t}{L}), n \in \N$
 \section{Classification}
 $\int_{a}^{b}K(x,y)u(y)dy = f(x) , a \leq x \leq b$ This is called a Fredholm Integral Equation of the first kind. (FIE1). 
 K is called the kernal, a and b are constants with b > a. Next f(x) is given for $a \leq x \leq b$. Often we may have f(x) for a<x<b, e.g. f(a) may not exist or $a = -\infty$ or $b = \infty$. K(x,y) is a given function of two variables defined in a square in the x,y plane. 
-$\Omega = \{(x,y):a\leq x \leq b, a \leq y \leq b$. If f(x) is not defined $\forall  x \in [a,b]$ then the same applies to K. 
+$\Omega = \{(x,y):a\leq x \leq b, a \leq y \leq b$. If f(x) is not defined $\forall  x \in [a,b]$ then the same applies to K.
+Also th eintegral must make sense, so k could have singularities of various types, e.g. k(x,x) might be undefined. If FIE1 holds for another interval of x values, e.g.
+\begin{align*}
+    \int_{a}^{y} \tilde{k}(x',y)u(y)dy = \tilde{f}(x'), c \leq x' \leq d \\
+\end{align*}
+We can make a simple substituition - $x' =\frac{(d-c)x+bc-ad}{b-a}$
+which then gives back FIE1. Next
+\begin{align*}
+    u(x) - \int_{a}^{b}k(x,y)u(y)dy = f(x) , x \in [a,b] FIE2 \\
+\end{align*}
+Fredhold integral equation of the second kind. 
+FIE2 holds for any $x \in [a,b]$ which is the same as the range of integration. IF we were given FIE2 $x \in [a,b]$ we could not use the linear substituition that we use for FEI1- this is because u appears in two places.
+There are analogou sintegral equations with variable limits:
+\begin{align*}
+    \int_{a}^{x}k(x,y)u(y)dy = f(x), x \geq a VIE1 \\
+\end{align*}
+Volterra integral equation of the first kind. 
+\begin{align*}
+    u(x) - \int_{a}^{x}k(x,y)u(y)dy =f(x), x \geq a VIE2
+\end{align*}
+Volterra integral equation of the second kind. 
+Note: If we suppose k(x,y) =0 for y >x in FIE1 or 2 we get VIE1 or 2. So in some sense VIE1 and 2 are special cases of FIE1 and 2. However VIE1 and 2 do have special properties.  
 \end{document}
